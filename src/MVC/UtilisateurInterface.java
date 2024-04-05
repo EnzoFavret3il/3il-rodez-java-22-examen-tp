@@ -2,6 +2,7 @@ package MVC;
 
 import java.awt.event.ActionListener;
 
+import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -16,10 +17,11 @@ class UtilisateurInterface extends JFrame {
     String[] prio= {"HAUTE","MOYENNE","BASSE","AUCUNE"};
     //Pour des raisons de simplifcation, la date sera un string
     private JTextField dateEcheance;
-    private JComboBox Priorite=new JComboBox(prio);
+    private JComboBox Priorite;
     private JButton button;
     private JLabel label;
-    
+    private JTextField TaskToDelete;
+    private JComboBox tasktodel;
     
     public UtilisateurInterface() {
         setTitle("Gestionnaire des tâches");
@@ -30,9 +32,11 @@ class UtilisateurInterface extends JFrame {
         Description = new JTextField(20);
         dateEcheance= new JTextField(20);
         Priorite=new JComboBox();
+        Priorite.setModel(new DefaultComboBoxModel(prio));
         button = new JButton("Enregistrer");
         label = new JLabel("Information Tache: Titre,Description,DateEcheance,priorite");
-        
+        TaskToDelete=new JTextField(20);
+        tasktodel=new JComboBox();
         JPanel panel = new JPanel();
         panel.add(label);
         panel.add(Titre);

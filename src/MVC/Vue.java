@@ -14,7 +14,7 @@ class Vue extends JFrame {
     private JLabel label;
 
     public Vue() {
-        setTitle("Exemple MVC avec Java Swing");
+        setTitle("Gestionnaire des tâches");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

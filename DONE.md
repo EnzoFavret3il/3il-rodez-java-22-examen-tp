@@ -7,8 +7,11 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 ### Ajout d'une tâche
 
 - [ X ] Formulaire de saisie des détails de la tâche.
-- [ ] Bouton "Ajouter".
+  Le formulaire est d'ajout de tache et de saisie est en place, l'ajout ne fonctionne pas mais l'utilisateur peux remplir les informations qu'il souhaite. Il est compose de JTextField pour les informations et un JComboBox pour les différents niveaux de priorité.
+- [ X ] Bouton "Ajouter".
+  Bouton Ajouter présent mais n'ajoute rien
 - [ ] Test unitaire associé.
+      Aucun Test réalisé
 
 (Explication et justification de ce qui a été fait...)
 
@@ -38,7 +41,8 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 
 ### Gestion des priorités
 
-- [ ] Possibilité de définir la priorité lors de l'ajout ou de la modification de la tâche.
+- [ X ] Possibilité de définir la priorité lors de l'ajout ou de la modification de la tâche.
+  Le JComboxBox propose les différents niveaux de priorité
 - [ ] Test unitaire associé.
 
 (Explication et justification de ce qui a été fait...)

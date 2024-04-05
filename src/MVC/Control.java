@@ -2,13 +2,15 @@ package MVC;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import Tache.Task;
+
 
 class Control {
-    private Model model;
+    private Task tache;
     private Vue view;
 
-    public Control(Model model, Vue view) {
-        this.model = model;
+    public Control(Task tache, Vue view) {
+        this.tache = tache;
         this.view = view;
 
         // Liaison entre la vue et le contrôleur
@@ -19,12 +21,7 @@ class Control {
     class ButtonListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            // Récupérer la saisie utilisateur depuis la vue
-            String userInput = view.getTitre();
-            // Mettre à jour le modèle avec la saisie utilisateur
-            model.setData(userInput);
-            // Mettre à jour l'affichage dans la vue
-            view.setLabelText(model.getData());
+
         }
     }
 }

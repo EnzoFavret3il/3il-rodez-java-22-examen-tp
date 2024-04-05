@@ -7,7 +7,7 @@ public class Task implements TaskInterface{
 	String titre;
 	String description;
 	String dateEcheance;
-	enum priorite {HAUTE,MOEYENNE,BASSE, AUCUNE}
+	String priorite;
 	public int getId() {
 		return id;
 	}
@@ -26,18 +26,28 @@ public class Task implements TaskInterface{
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	public void setPriorite(String priorite) {
+		this.priorite=priorite;
+	}
+	public String getPriorite() {
+		return priorite;
+	}
 	public String getDateEcheance() {
 		return dateEcheance;
 	}
 	public void setDateEcheance(String dateEcheance) {
 		this.dateEcheance = dateEcheance;
 	}
-	public Task(int id, String titre, String description, String dateEcheance) {
+	public Task(int id, String titre, String description, String dateEcheance, String priorite) {
 		super();
 		this.id = id;
 		this.titre = titre;
 		this.description = description;
 		this.dateEcheance = dateEcheance;
+		this.priorite=priorite;
+	}
+	public Task() {
+		// TODO Auto-generated constructor stub
 	}
 	@Override
 	public void ajouterTache(Task tache) {
@@ -58,7 +68,13 @@ public class Task implements TaskInterface{
 	public Task[] getTaches() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Voici les informations de la tâche: "+this.id+" "+this.titre+" "+this.description + " "+ this.dateEcheance+ " "+ this.priorite;
 	};
+	
 	
 	
 	

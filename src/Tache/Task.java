@@ -2,7 +2,7 @@ package Tache;
 
 import java.util.Date;
 
-public class Task {
+public class Task implements TaskInterface{
 	int id;
 	String titre;
 	String description;
@@ -38,6 +38,26 @@ public class Task {
 		this.titre = titre;
 		this.description = description;
 		this.dateEcheance = dateEcheance;
+	}
+	@Override
+	public void ajouterTache(Task tache) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void modifierTache(Task tache) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void supprimerTache(Task tache) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public Task[] getTaches() {
+		// TODO Auto-generated method stub
+		return null;
 	};
 	
 	

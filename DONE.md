@@ -25,8 +25,9 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 
 ### Suppression d'une tâche
 
-- [ ] Mécanisme de sélection et de suppression de la tâche.
-- [ ] Bouton "Supprimer".
+- [ ~ ] Mécanisme de sélection et de suppression de la tâche.
+  Le mecanisme visuel est présent mais le backend (methode pour realiser l'action) ne fonctionne pas.
+- [ X ] Bouton "Supprimer".
 - [ ] Test unitaire associé.
 
 (Explication et justification de ce qui a été fait...)
@@ -49,7 +50,8 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 
 ### Possibilité d'évolution
 
-- [ ] Description claire des fonctionnalités potentielles à ajouter dans le futur pour améliorer l'application.
+- [ X ] Description claire des fonctionnalités potentielles à ajouter dans le futur pour améliorer l'application.
+      Sans parler des méthodes de bases qui ne sont pas et qui devrait être implémenté, des fonctionnalitées tel que l'affichage d'un calendrier avec les tâches pourrait être intéréssant, tel outlook le propose par exemple avec les réunions. Le calendrier se composerait de tous les mois de l'année, s'affichera à la date actuelle avec des cases pour chaque jour avec une liste apparente sur ses cases avec les taches du jours. Une autre fonctionnalité serait un système de rappel à x jours/heures de la date d'echeance afin de rappeler l'utilisateur qu'il doit faire quelque chose
 - [ ] Réflexion sur la modularité et la scalabilité de l'application pour faciliter les évolutions futures.
 
 (Explication et justification de ce qui a été fait...)

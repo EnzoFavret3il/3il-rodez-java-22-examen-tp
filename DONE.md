@@ -13,7 +13,8 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 - [ ] Test unitaire associé.
       Aucun Test réalisé
 
-(Explication et justification de ce qui a été fait...)
+Toute l'affichage fonctionne, la combobox affiche les niveau de priorité des taches... mais aucune méthode non été liées pour le faire fonctionner.
+Les methodes ont été créer mais pas compléter. Aucun Test de fait
 
 ### Modification d'une tâche
 
@@ -21,7 +22,7 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 - [ ] Bouton "Modifier".
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+En ce qui concerne cette partie, rien n'a été fait
 
 ### Suppression d'une tâche
 
@@ -30,7 +31,7 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 - [ X ] Bouton "Supprimer".
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Un bouton supprimer, une jlabel indiquant l'action ainsi qu'un ComboBox ont été créer pour cette partie. L'idée était de selectionner le titre de la tache et de la supprimer en cliquant sur le bouton
 
 ### Visualisation des tâches
 
@@ -38,7 +39,7 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
 - [ ] Mécanisme de filtrage ou de tri des tâches.
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Rien n'a été fait
 
 ### Gestion des priorités
 
@@ -46,7 +47,7 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
   Le JComboxBox propose les différents niveaux de priorité
 - [ ] Test unitaire associé.
 
-(Explication et justification de ce qui a été fait...)
+Une combox affiche les priorités disponible, le but été de vérifier après l'appuie sur le bouton si l'entré combobox correspondait aux entrés disponible
 
 ### Possibilité d'évolution
 
@@ -54,7 +55,7 @@ Ce document récapitule les réalisations effectuées dans le cadre du TP de ges
       Sans parler des méthodes de bases qui ne sont pas et qui devrait être implémenté, des fonctionnalitées tel que l'affichage d'un calendrier avec les tâches pourrait être intéréssant, tel outlook le propose par exemple avec les réunions. Le calendrier se composerait de tous les mois de l'année, s'affichera à la date actuelle avec des cases pour chaque jour avec une liste apparente sur ses cases avec les taches du jours. Une autre fonctionnalité serait un système de rappel à x jours/heures de la date d'echeance afin de rappeler l'utilisateur qu'il doit faire quelque chose
 - [ ] Réflexion sur la modularité et la scalabilité de l'application pour faciliter les évolutions futures.
 
-(Explication et justification de ce qui a été fait...)
+
 
 ## Bonus
 

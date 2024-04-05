@@ -6,7 +6,7 @@ public class Task implements TaskInterface{
 	int id;
 	String titre;
 	String description;
-	Date dateEcheance;
+	String dateEcheance;
 	enum priorite {HAUTE,MOEYENNE,BASSE, AUCUNE}
 	public int getId() {
 		return id;
@@ -26,13 +26,13 @@ public class Task implements TaskInterface{
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Date getDateEcheance() {
+	public String getDateEcheance() {
 		return dateEcheance;
 	}
-	public void setDateEcheance(Date dateEcheance) {
+	public void setDateEcheance(String dateEcheance) {
 		this.dateEcheance = dateEcheance;
 	}
-	public Task(int id, String titre, String description, Date dateEcheance) {
+	public Task(int id, String titre, String description, String dateEcheance) {
 		super();
 		this.id = id;
 		this.titre = titre;

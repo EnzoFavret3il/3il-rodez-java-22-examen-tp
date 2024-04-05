@@ -20,7 +20,7 @@ class Control {
         @Override
         public void actionPerformed(ActionEvent e) {
             // Récupérer la saisie utilisateur depuis la vue
-            String userInput = view.getUserInput();
+            String userInput = view.getTitre();
             // Mettre à jour le modèle avec la saisie utilisateur
             model.setData(userInput);
             // Mettre à jour l'affichage dans la vue

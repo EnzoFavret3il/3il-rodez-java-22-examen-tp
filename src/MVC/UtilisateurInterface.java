@@ -10,7 +10,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-class UtilisateurInterface extends JFrame {
+public class UtilisateurInterface extends JFrame {
     private JTextField Titre;
     private JTextField Description;
   //Valeur de la comboBox
@@ -20,12 +20,12 @@ class UtilisateurInterface extends JFrame {
     private JComboBox Priorite;
     private JButton button;
     private JLabel label;
-    private JTextField TaskToDelete;
+    private JButton TaskToDelete;
     private JComboBox tasktodel;
-    
+    private JLabel del;
     public UtilisateurInterface() {
         setTitle("Gestionnaire des tâches");
-        setSize(800, 200);
+        setSize(800, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         Titre = new JTextField(20);
@@ -35,8 +35,9 @@ class UtilisateurInterface extends JFrame {
         Priorite.setModel(new DefaultComboBoxModel(prio));
         button = new JButton("Enregistrer");
         label = new JLabel("Information Tache: Titre,Description,DateEcheance,priorite");
-        TaskToDelete=new JTextField(20);
+        TaskToDelete=new JButton("Supprimer");
         tasktodel=new JComboBox();
+        del=new JLabel("Choisissez la tache à supprimer");
         JPanel panel = new JPanel();
         panel.add(label);
         panel.add(Titre);
@@ -46,6 +47,9 @@ class UtilisateurInterface extends JFrame {
         panel.add(dateEcheance);
         panel.add(Priorite);
         panel.add(button);
+        panel.add(del);
+        panel.add(tasktodel);
+        panel.add(TaskToDelete);
         add(panel);
 
         setVisible(true);

@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import Tache.Task;
 
 
-class Controller {
+public class Controller {
     private Task tache;
     private UtilisateurInterface view;
 

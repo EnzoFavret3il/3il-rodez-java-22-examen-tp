@@ -1,6 +1,8 @@
 //Classe principale contenant la méthode main
-package MVC;
+package Boot;
 
+import MVC.Controller;
+import MVC.UtilisateurInterface;
 import Tache.Task;
 
 public class main {

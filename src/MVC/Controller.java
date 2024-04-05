@@ -5,11 +5,11 @@ import java.awt.event.ActionListener;
 import Tache.Task;
 
 
-class Control {
+class Controller {
     private Task tache;
-    private Vue view;
+    private UtilisateurInterface view;
 
-    public Control(Task tache, Vue view) {
+    public Controller(Task tache, UtilisateurInterface view) {
         this.tache = tache;
         this.view = view;
 

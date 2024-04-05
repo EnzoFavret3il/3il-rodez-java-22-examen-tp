@@ -9,7 +9,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-class Vue extends JFrame {
+class UtilisateurInterface extends JFrame {
     private JTextField Titre;
     private JTextField Description;
   //Valeur de la comboBox
@@ -21,7 +21,7 @@ class Vue extends JFrame {
     private JLabel label;
     
     
-    public Vue() {
+    public UtilisateurInterface() {
         setTitle("Gestionnaire des tâches");
         setSize(800, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
